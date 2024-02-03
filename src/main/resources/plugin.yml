@@ -1,0 +1,13 @@
+name: RIAAntiCheat
+version: '${project.version}'
+main: com.ghostchu.plugins.riaanticheat.RIAAntiCheat
+api-version: '1.20'
+
+depend:
+  - ProtocolLib
+softdepend:
+  - ViaVersion
+commands:
+  riaanticheat:
+    usage: Test command
+    description: op
